@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 854px;
+  background-image: url('https://i.pinimg.com/originals/07/96/3a/07963a33f30a7c69dee70432aad9fec6.jpg');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-logo {
+  width: 150px;
+  position:absolute;
+  top:20px;
+  right:20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+button {
+  padding: .8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+h2 {
+  color: white;
+}
+
+.opcoes {
+  color: white;
+}
+
+#mostrarCartaJogador, #mostrarCartaMaquina {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ff2ca5d0-5633-4ef7-b22f-934c6516d5f0/d6iuhnh-22a84a73-8669-48aa-aaac-47e886276b7c.jpg/v1/fill/w_1192,h_670,q_70,strp/dark_blue_wallpaper_by_malkowitch_d6iuhnh-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZmYyY2E1ZDAtNTYzMy00ZWY3LWIyMmYtOTM0YzY1MTZkNWYwXC9kNml1aG5oLTIyYTg0YTczLTg2NjktNDhhYS1hYWFjLTQ3ZTg4NjI3NmI3Yy5qcGciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.F7CODqCh4WRnK735EZU_rvVFopFkwogzn0_LNp_ph-c");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#versusarea {
+  display: inline-flex;
+  align-items: center;
+}
+
+#versus {
+  padding: 20px;
+}
