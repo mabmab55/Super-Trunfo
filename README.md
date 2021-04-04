@@ -1,2 +1,2 @@
 # Super Trunfo
- Projeto adaptado do Sétimo dia de aula da ImersãoDev da alura
+ Jogo baseado no Super Trunfo utilizando alguns personagens de Boku no Hero
