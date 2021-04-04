@@ -11,7 +11,7 @@ var cartaTsuyu = {
 
 var cartaTenya = {
   nome: "Tenya Ida",
-  imagem: "https://static.wikia.nocookie.net/bokunoheroacademia/images/f/f8/Tenya_Ida_school_uniform.png/revision/latest/scale-to-width-down/1000?cb=20180509005900",
+  imagem: "http://pm1.narvii.com/7357/779ca46d13e09231a2879d71b56414ca3ed5159dr1-400-400v2_00.jpg",
   atributos:{
     Power: 5,
     Speed: 6,
@@ -22,7 +22,7 @@ var cartaTenya = {
 
 var cartaOchaco = {
   nome: "Ochaco Uraraka",
-  imagem: "https://static.wikia.nocookie.net/bokunoheroacademia/images/6/6b/Ochaco_school_headshot.png/revision/latest/scale-to-width-down/1000?cb=20180423205238",
+  imagem: "https://64.media.tumblr.com/477350b2b6648694e824b09f03fadad8/dd32c3e3d5586357-23/s250x400/f8e7125fb0ad053ee1a1c9a17c54122b8f69819d.png",
   atributos:{
     Power: 4,
     Speed: 4,
@@ -33,7 +33,7 @@ var cartaOchaco = {
 
 var cartaEijiro = {
   nome: "Eijiro Kirishima",
-  imagem: "https://static.wikia.nocookie.net/bokunoheroacademia/images/b/be/Eijiro_Kirishima_Sports_Festival_Arc_Portait.png/revision/latest/scale-to-width-down/185?cb=20190516221140",
+  imagem: "https://pbs.twimg.com/media/EWormI5WoAAoami.jpg",
   atributos:{
     Power: 5,
     Speed: 3,
@@ -44,7 +44,7 @@ var cartaEijiro = {
 
 var cartaIzuku = {
   nome: "Izuku Midoriya",
-  imagem: "https://static.wikia.nocookie.net/bokunoheroacademia/images/6/66/Izuku_Midoriya_headshot.png/revision/latest/scale-to-width-down/185?cb=20170928002152",
+  imagem: "https://i.pinimg.com/736x/c7/c4/e7/c7c4e71020be87de566a66c20f86f7a6.jpg",
   atributos:{
     Power: 5,
     Speed: 5,
@@ -55,7 +55,7 @@ var cartaIzuku = {
 
 var cartaKatsuki = {
   nome: "Katsuki Bakugo",
-  imagem: "https://static.wikia.nocookie.net/bokunoheroacademia/images/a/aa/Katsuki_Bakugo_headshot.png/revision/latest/scale-to-width-down/185?cb=20180515163155",
+  imagem: "https://64.media.tumblr.com/199311b41790b1f62c9651578932e29b/c0a5812eb19caf8b-e4/s640x960/e6a0f161e7fccced8442372fbb01c5fec4dca2cb.jpg",
   atributos:{
     Power: 5,
     Speed: 5,
@@ -66,7 +66,7 @@ var cartaKatsuki = {
 
 var cartaShoto = {
   nome: "Shoto Todoroki",
-  imagem: "https://static.wikia.nocookie.net/540087a1-ae61-407f-92d1-d599c9f74b27",
+  imagem: "https://64.media.tumblr.com/4c82ec2380a83b968d33a10d2e84cba6/d33feddea732d988-32/s1280x1920/0cca1013bd77e58280a037d3b0fd0596d491b1f4.jpg",
   atributos:{
     Power: 6,
     Speed: 5,
@@ -97,6 +97,7 @@ function sortearCarta() {
   mostrarCartaJogador()
   if (x > 0) {
     limparImagem()
+    limparResultado()
   }
 }
 
@@ -185,4 +186,9 @@ function limparImagem() {
   limparJogador.remove()
   limparMaquina.remove()
   limparCartaMaquina.innerHTML= '<p id="imagemM"> </p><p id="nomeM"> </p> <p id="powerM"> </p> <p id="speedM"> </p> <p id="techniqueM"> </p> <p id="intelligenceM"> </p>'
+}
+
+function limparResultado() {
+  var limparResultado = document.getElementById("resultado")
+  limparResultado.innerHTML = ''
 }
